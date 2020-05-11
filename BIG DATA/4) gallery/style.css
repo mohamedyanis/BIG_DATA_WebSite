@@ -1,0 +1,197 @@
+.section-title {
+  margin: 50px 0px 50px 0px;
+}
+
+.section-title h2 {
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#portfolio .portfolio-list {
+  margin-bottom: 50px;
+}
+
+#portfolio .portfolio-list .nav {
+  display: inline-block;
+}
+
+#portfolio .portfolio-list .nav li {
+  margin: 10px 30px 10px 30px;
+  font-size: 16px;
+  color: #f1f1f1;
+  line-height: 16px;
+  cursor: pointer;
+  font-family: 'Josefin sans',Sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  float: none; 
+  display: inline-block;
+
+}
+
+#portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active  {
+  color: #00ffea;
+  transition: all 0.3s ease-in-out 0s;
+  
+}
+
+
+.portfolio-thumbnail {
+  margin-bottom: 10px;
+  overflow: hidden;
+  min-height: 260px;
+  margin: auto;
+  transition: 0.5s ease;
+  border-radius: 100px;
+}
+
+.portfolio-thumbnail:hover
+{
+    box-shadow: 4px 0px 4px 0px #888888;
+    border-radius: 90px;
+    background-color: transparent;
+}
+
+.portfolio-thumbnail img {
+  width:400px;
+  height: 250px;
+  margin: auto;
+  transition: 0.5s ease;
+  border-radius: 100px;
+}
+
+.portfolio-thumbnail img:hover
+{
+    box-shadow: 4px 5px 5px 4px #888888;
+	border-radius: 90px;
+}
+
+.par
+{
+    font-family: monospace;
+	font-size: 16px;
+    text-align: center;
+    color: rgb(226, 65, 65);
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat",sans-serif;
+    box-sizing: border-box;
+}
+
+body
+{
+  background-image: linear-gradient(rgba( 0,0,0,0.5),rgba( 0,0,0,0.5)), url(images/bg.jpg);
+  height: 100vh;
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.bar
+{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+.bar li
+{
+    
+    display: inline-block;
+}
+
+.icon
+{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.85s ease;
+}
+
+a:hover
+{
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+}
+
+.bar li.active a
+{
+    background-color: #fff;
+    color: #000;
+}
+
+.logo img
+{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+.main
+{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+.more
+{
+    width: 100%;
+    height: 50%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(120deg, #3498db, #8e44ad, #3498db);
+    background-size: 200%;
+    color: #000000;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.more:hover
+{
+    background-position: right;
+    border-radius: 10px;
+}
+
+.parag
+{
+    text-align: center;
+    color: transparent;
+}
+
+.rb
+{
+  text-decoration: none;
+  color: #0d6175;
+
+}
+
+.rb:hover
+{
+  text-decoration: none;
+  background-color: transparent;
+  color: #041c49;
+}
